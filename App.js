@@ -23,6 +23,7 @@ export default function App() {
       >
         <Stack.Screen
           name="App_to_Home"
+          component={HomeScreen}
           options={{
             title: "Movie Time",
             headerTitleStyle: {
@@ -30,7 +31,6 @@ export default function App() {
               fontSize: 30,
             },
           }}
-          component={HomeScreen}
         />
         <Stack.Screen
           name="Home_to_Details"
